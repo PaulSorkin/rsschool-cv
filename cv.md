@@ -15,6 +15,7 @@ A skilled Electrical Engineer with more than ten years of extensive industrial e
 * CSS
 * Git
 * Excel
+* JS
 * ****
 ### Work experience
 
