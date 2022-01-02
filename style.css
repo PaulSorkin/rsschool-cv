@@ -82,3 +82,8 @@ pre code {
     padding: 10px;
     max-width: fit-content;
 }
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+}
