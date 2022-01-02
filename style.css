@@ -9,25 +9,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    background-color: rgb(234, 250, 248);
+    }
 * {
     box-sizing: border-box;
   }
 .header {
-      border: 1px solid green;
-      background-color: chocolate;
+      background-color: #96cf9f;
        }
 .main {
-      border: 1px blue;
-      background-color: aqua;
-  }
+      background-color: rgb(234, 250, 248);
+       }
 .footer {
-      border: 1px red;
-      background-color: blueviolet;
+      background-color: #96cf9f;
   }
 .container {
       max-width: 1440px;
-      margin: 0 auto;
+      margin: auto;
+     
   }
 /*Не аботает ограничение по ширине, в чем дело?*/
 
@@ -51,4 +50,35 @@ html {
 }
 .nav-link:hover {
     color: rgb(136, 95, 175);
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my-photo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.name-and-occupation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.section-items {
+    list-style: none;
+}
+
+pre code {
+    background-color: rgba(216, 229, 247, 0.808);
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+    max-width: fit-content;
 }
