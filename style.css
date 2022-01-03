@@ -1,0 +1,131 @@
+.text-block {
+    background-color: blue;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #492727;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(234, 250, 248);
+    }
+* {
+    box-sizing: border-box;
+  }
+.header {
+      background-color: #96cf9f;
+       }
+.main {
+      background-color: rgb(234, 250, 248);
+       }
+.footer {
+      background-color: #96cf9f;
+      color: black;
+      font: optional;
+  }
+.container {
+      max-width: 1440px;
+      margin: auto;
+     
+  }
+/*Не аботает ограничение по ширине, в чем дело?*/
+
+.nav-list {
+    flex-direction: raw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; /*Removed dots on items*/
+}
+html {
+    scroll-behavior: smooth; /*Мягкая прокрутка*/
+}
+.nav-link { /*Добавляем отступы между элементами списка*/
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none; /*убрать подчёркивание у ссылок*/
+    color: rgb(7, 7, 7);
+    font: optional;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: rgb(136, 95, 175);
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my-photo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*.name-and-occupation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}*/
+
+.section-items {
+    list-style: none;
+}
+
+pre code {
+    background-color: rgba(216, 229, 247, 0.808);
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+}
+
+.section-title {
+    font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #253786;
+}
+
+.section1-title1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 26x;
+    color: #253786;
+    letter-spacing: 10px;
+}
+.section1-title2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #2b397a;
+}
+.section-link {
+    text-decoration: none;
+    color: rgba(160, 71, 71);
+    font: optional;
+    transition: .3s;
+}
+
+.section-link :hover {
+    color: #60c26f;
+}
